@@ -37,7 +37,7 @@ public class RulesOf6005 {
             boolean availableToOthers, boolean writtenAsCourseWork,
             boolean citingYourSource, boolean implementationRequired) {
         
-        System.out.println("Code In Assignment Check");
+        System.out.println("Code In Assignment Check...");
         if(writtenByYourself){
 
             return true;
@@ -52,7 +52,7 @@ public class RulesOf6005 {
 
         else if(!writtenAsCourseWork && availableToOthers && citingYourSource){
 
-            return true;
+            return true; 
 
         }
 
